@@ -11,6 +11,7 @@ section{
     width: 100%;
     min-height: 82vh;
     margin-top: 62px;
+    overflow-x: hidden;
 }
 .parentNav{
     width: 100%;
@@ -144,8 +145,8 @@ section{
     color: lightslategray;
 }
 .heroSectionImg{
-    width: 500px;
-    height: 450px;
+    max-width: 500px;
+    max-height: 450px;
 }
 .heroSectionImg img{
     mix-blend-mode: multiply;
@@ -238,9 +239,12 @@ section{
         /* padding-left: 25px; */
     }
     .liHolder li{
-        margin-top: 25px;
+        margin-top: 60px;
         border-bottom: 1px solid whitesmoke;
         padding-bottom: 8px;
+    }
+    .liHolder li .nvLink{
+        color: floralwhite;
     }
     .active{
         border-bottom: none;
@@ -267,9 +271,9 @@ section{
 }
 @media only screen and (max-width:576px){
     .waitingHeading{
-        font-size: 26px;
+        font-size: 20px;
     }
     .catchyText{
-        font-size: 30px;
+        font-size: 24px;
     }
 }

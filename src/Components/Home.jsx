@@ -53,13 +53,13 @@ const Home = () =>{
         <>
             <section>
                 <div className='container'>
-                    <div className='heroSectionHolder'>
-                        <div className='d-flex justify-content-around heroFlexer'>
+                    <div className='heroSectionHolder w-100'>
+                        <div className='d-flex justify-content-evenly heroFlexer'>
                             <div className='heroSectionText my-auto'>
                                 <h1 className='heroSectionHeading'>Tech <span style={{color:'#0066b2'}}>Innovation</span> </h1>
                                 <h4 className='lowerText'>to <strong className='revolutionWord'>Revolutionize</strong> <br/> the world for wellbeing and good ❕</h4>
                             </div>
-                            <div className='heroSectionImg pt-5 d-flex align-items-center justify-content-center'>
+                            <div className='heroSectionImg pt-5 d-flex align-items-center justify-content-start'>
                                 <img src={herSectionImgURL} className='img-fluid' alt='heroImg' />
                             </div>
                         </div>
@@ -69,7 +69,7 @@ const Home = () =>{
 
             <section>
                 <hr/>
-                <div className='container-fluid'>
+                <div className='container'>
                     <h3 className='qualitiesHeading py-4'>Our Qualities</h3>
                     <div className='bannerSection' onMouseOver={changeNumbers}>
                         <div className='row'>
@@ -104,7 +104,7 @@ const Home = () =>{
                                 <div className='col-md-10 col-8'>
                                     <p className='waitingHeading'>So <span className='catchyText'>what</span> are you w<span className='catchyText'>8</span>ing for <br/> hurry <span className='catchyText'>up</span> ❕ </p> 
                                     <NavLink to='/services'> 
-                                        <Button variant="contained" className='mt-1 availingBtn'>
+                                        <Button variant="contained" className='availingBtn'>
                                             Avail Services
                                         </Button>
                                     </NavLink>

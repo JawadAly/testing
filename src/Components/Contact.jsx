@@ -52,27 +52,27 @@ const Contact = () =>{
                     <div className='formHolder mt-3'>
                         <form onSubmit={getFormData}>
                             <div className='row'>
-                                <div className='col-md-5 col-sm-6 col-12 mx-auto'>
+                                <div className='col-md-5 col-sm-10 col-12 mx-auto'>
                                     <TextField name='userName' value={info.userName} onChange={fetchInfo} required fullWidth size='small' className='mb-4' id="outlined-basic" label="Your Name" variant="outlined" />
                                 </div>
                             </div>
                             <div className='row'>
-                                <div className='col-md-5 col-sm-6 col-12 mx-auto'>
+                                <div className='col-md-5 col-sm-10 col-12 mx-auto'>
                                     <TextField name='userPhone' value={info.userPhone} onChange={fetchInfo} required fullWidth size='small' className='mb-4' id="outlined-basic" label="Your Phone" variant="outlined" />
                                 </div>
                             </div>
                             <div className='row'>
-                                <div className='col-md-5 col-sm-6 col-12 mx-auto'>
+                                <div className='col-md-5 col-sm-10 col-12 mx-auto'>
                                     <TextField name='userEmail' type='email' value={info.userEmail} onChange={fetchInfo} required fullWidth size='small' className='mb-4' id="outlined-basic" label="Your Email" variant="outlined" />
                                 </div>
                             </div>
                             <div className='row'>
-                                <div className='col-md-5 col-sm-6 col-12 mx-auto'>
+                                <div className='col-md-5 col-sm-10 col-12 mx-auto'>
                                 <textarea name='userMessage' value={info.userMessage} onChange={fetchInfo} required  className='form-control contactTextArea mb-3' placeholder='Your text here'/>
                                 </div>
                             </div>
                             <div className='row'>
-                                <div className='col-md-5 col-sm-6 col-12 mx-auto'>
+                                <div className='col-md-5 col-sm-10 col-12 mx-auto'>
                                     <div className='w-100'>
                                     <Button type='submit' variant="contained" endIcon={<DoneIcon/>}>
                                         Submit
